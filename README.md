@@ -9,7 +9,9 @@ To do so, I will make use of a data set from Kaggle consists of color (RGB) micr
 
 Open the notebook in colab and follow the instructions you will find at the beginning of the notebook.
 
-In the jupyter file are defined all the functions for the proper obtaining of the results and the deep learning models needed for the image classification task (in this case a simple CNN).
+In the jupyter file are defined all the functions for the proper obtaining of the results and the deep learning models needed for the image classification task. In this case I opted for a simple CNN obtaining the following performances:
+
+![nn_performances](https://github.com/Engrima18/ExaplainNET/assets/93355495/34bb85fe-ca1d-438f-80ef-f11beaf5a049)
 
 Please, for a more complete understanding of the results, read the colab notebook or the `report.ipynb` file in this repository.
 
@@ -35,3 +37,4 @@ Finally the [Integrated gradients](https://arxiv.org/abs/1703.01365) technique s
 ![integrated_grad_analysis](https://github.com/Engrima18/ExaplainNET/assets/93355495/28ce524d-f879-4541-8109-d48cb5ff496f)
 
 
+## Used technologies
