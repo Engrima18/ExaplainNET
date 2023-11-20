@@ -7,7 +7,9 @@ To do so, I will make use of a data set from Kaggle consists of color (RGB) micr
 
 ## Instructions
 
-Open the notebook in colab and follow the instructions you will find at the beginning of the notebook.
+Open the notebook in colab and follow the instructions you will find at the beginning of the notebook <a target="_blank" href="https://colab.research.google.com/github/Engrima18/ExaplainNET/blob/main/report.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>.
 
 In the jupyter file are defined all the functions for the proper obtaining of the results and the deep learning models needed for the image classification task. In this case I opted for a simple CNN obtaining the following performances:
 
@@ -38,3 +40,5 @@ Finally the [Integrated gradients](https://arxiv.org/abs/1703.01365) technique s
 
 
 ## Used technologies
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
