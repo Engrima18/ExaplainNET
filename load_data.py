@@ -1,8 +1,5 @@
-from PIL import Image
 import shutil
 import os
-import matplotlib.pyplot as plt
-
 
 def organize_data():
 
