@@ -1,17 +1,17 @@
 # ExaplainNET
 The main purpose of this study is the implementation of various explainable AI techniques. An attempt will then be made to replicate via code the analyses reported in the suggested scientific papers.
 
-To do so, I will make use of a data set from Kaggle consists of color (RGB) microscope [images of pollen grains](https://www.kaggle.com/datasets/andrewmvd/pollen-grain-image-classification), specifically divided into 23 classes and the main task of the neural network will then consist of correctly classifying these images.
+To do so, I will use of a data set from Kaggle consisting of color (RGB) microscope [images of pollen grains](https://www.kaggle.com/datasets/andrewmvd/pollen-grain-image-classification), specifically divided into 23 classes and the main task of the neural network will be to correctly classify these images.
 
 ![sample_images](https://github.com/Engrima18/ExaplainNET/assets/93355495/679d78c3-56e3-46bd-a843-30fd042a4ee7)
 
 ## Instructions
 
-Open the notebook in colab and follow the instructions you will find at the beginning of the notebook <a target="_blank" href="https://colab.research.google.com/github/Engrima18/ExaplainNET/blob/main/report.ipynb">
+Open the notebook in colab and follow the instructions you will find in the markdown cells at the beginning <a target="_blank" href="https://colab.research.google.com/github/Engrima18/ExaplainNET/blob/main/report.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>.
 
-In the jupyter file are defined all the functions for the proper obtaining of the results and the deep learning models needed for the image classification task. In this case I opted for a simple CNN obtaining the following performances:
+In the jupyter file are defined all the functions for the proper obtaining of the results and the deep learning models needed for the image classification task. In this case I opted for a simple CNN achieving the following performances:
 
 ![nn_performances](https://github.com/Engrima18/ExaplainNET/assets/93355495/34bb85fe-ca1d-438f-80ef-f11beaf5a049)
 
@@ -19,7 +19,7 @@ Please, for a more complete understanding of the results, read the colab noteboo
 
 ## Main findings 
 
-In practice, the techniques used will consist of assigning a certain weight to the features (in this case pixels) of an example in our data set based on some manipulation of the gradients in the computational graph of the network.
+In practice, the used techniques will consist of assigning a certain weight to the features (in this case pixels) of an example in our data set based on some manipulation of the gradients in the computational graph of the network.
 
 The first technique is the [Saliency Map](https://arxiv.org/abs/1312.6034) and its capped version for a better visualization.
 
